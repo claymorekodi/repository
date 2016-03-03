@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.LOKI"
+	   name="LOKI"
+	   version="0.0.2"
+	   provider-name="CLAYTV">
+  <requires>
+    <import addon="script.module.metahandler" optional="true" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+			 library="LOKI.py">
+    	<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Watch Movies &amp; TV Shows Online For Free</summary>
+    <description>Watch Your Favorite Movies &amp; TV Shows Online For Free</description>
+    <description>LOKI MOVIES AND TV SHOWS :) FROM CLAYMORE TV TEAM </description>
+    <platform>all</platform>
+  </extension>
+</addon>
