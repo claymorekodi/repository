@@ -1,0 +1,10 @@
+<settings>
+	<category label="Settings">
+		<setting id="enable-meta" type="bool" label="Enable Metadata" default="true"/>
+		<setting id="auto-subtitle" type="bool" label="Auto Enable English Subtitle (If Available)" default="true"/>
+		<setting id="auto-view" type="bool" label="Enable Auto View" default="true"/>
+		<setting id="auto-view-value" type="number" label="Auto View Default" default="502" enable="!eq(-1,false)"/>
+		<!-- <setting id="auto-view" type="bool" label="Enable Auto View" default="true" enable="!eq(-1,false)"/> -->
+		<!-- <setting id="auto-view-value" type="number" label="Auto View Default" default="501" enable="!eq(-1,false)+!eq(-2,false)"/> -->
+	</category>
+</settings>
